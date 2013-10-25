@@ -1,8 +1,8 @@
 //
-//  MonsterEscapeAppController.mm
-//  MonsterEscape
+//  AllienEscapeAppController.mm
+//  AllienEscape
 //
-//  Created by macbook on 10/11/13.
+//  Created by Xician on 10/21/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 #import <UIKit/UIKit.h>
@@ -42,7 +42,8 @@ static AppDelegate s_sharedApplication;
     viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
     viewController.wantsFullScreenLayout = YES;
     viewController.view = __glView;
-
+    [__glView setMultipleTouchEnabled:YES];
+    
     // Set RootViewController to window
     if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
     {

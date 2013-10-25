@@ -1,8 +1,8 @@
 //
-//  MonsterEscapeAppDelegate.cpp
-//  MonsterEscape
+//  AllienEscapeAppDelegate.cpp
+//  AllienEscape
 //
-//  Created by macbook on 10/11/13.
+//  Created by Xician on 10/21/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
 #include "HelloWorldScene.h"
-
+#include "CharacterEnemy.h"
 USING_NS_CC;
 using namespace CocosDenshion;
 
@@ -37,6 +37,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
+    
     CCScene *pScene = HelloWorld::scene();
 
     // run

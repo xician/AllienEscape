@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="iso-test" tilewidth="64" tileheight="115" spacing="2" margin="2">
+  <image source="iso-test.png" width="512" height="256"/>
+  <tile id="3">
+   <properties>
+    <property name="coliedable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DAQ0AAAzDoM6/6Qs5JKyaqqqq7x6slrLfEA4AAA==
+  </data>
+ </layer>
+ <layer name="colied" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WIQ4AAAjDwIXw/zdjUTiYoE2mzy4lpWnXdTeWN7lb4eLi4uLi4uLi/nAdP/ayr65jBaZLMxMQDgAA
+  </data>
+ </layer>
+</map>

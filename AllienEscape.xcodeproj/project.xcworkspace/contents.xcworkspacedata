@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MonsterEscape.xcodeproj">
+      location = "self:AllienEscape.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tmx</key>
+	<string>iso-test-zorder</string>
+	<key>enemies</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>dragon</string>
+			<key>positionx</key>
+			<string>40</string>
+			<key>positiony</key>
+			<string>30</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string></string>
+			<key>positionx</key>
+			<string></string>
+			<key>positiony</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string></string>
+			<key>positionx</key>
+			<string></string>
+			<key>positiony</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string></string>
+			<key>positionx</key>
+			<string></string>
+			<key>positiony</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

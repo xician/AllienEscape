@@ -1,8 +1,8 @@
 //
 //  main.m
-//  MonsterEscape
+//  AllienEscape
 //
-//  Created by macbook on 10/11/13.
+//  Created by Xician on 10/21/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
