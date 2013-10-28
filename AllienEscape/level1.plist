@@ -10,33 +10,33 @@
 			<key>type</key>
 			<string>dragon</string>
 			<key>positionx</key>
-			<string>40</string>
+			<string>600</string>
 			<key>positiony</key>
-			<string>30</string>
+			<string>480</string>
 		</dict>
 		<dict>
 			<key>type</key>
-			<string></string>
+			<string>dragon</string>
 			<key>positionx</key>
-			<string></string>
+			<string>500</string>
 			<key>positiony</key>
-			<string></string>
+			<string>500</string>
 		</dict>
 		<dict>
 			<key>type</key>
-			<string></string>
+			<string>dragon</string>
 			<key>positionx</key>
-			<string></string>
+			<string>480</string>
 			<key>positiony</key>
-			<string></string>
+			<string>600</string>
 		</dict>
 		<dict>
 			<key>type</key>
-			<string></string>
+			<string>dragon</string>
 			<key>positionx</key>
-			<string></string>
+			<string>400</string>
 			<key>positiony</key>
-			<string></string>
+			<string>400</string>
 		</dict>
 	</array>
 </dict>

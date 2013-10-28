@@ -12,15 +12,14 @@
 #include "CCScrollView.h"
 #include "CCLayerPanZoom.h"
 #include "Utils.h"
-#include "SpriteDS.h"
-using namespace cocos2d;
+#include "CharacterEnemy.h"
+USING_NS_CC;
 using namespace extension;
-
 class HelloWorld : public CCLayerPanZoom
 {
     
     CCScrollView *gamePlayBGScrollView;
-    
+    Enemy *enemy;
     bool shouldMove;
     
 public:
@@ -35,21 +34,13 @@ public:
     
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(HelloWorld);
-    cocos2d::CCPoint getPointsWithDistanceAtAngle(int angle, int distance, float x, float y);
-    void getUpdatedPoints();
-    void executings();
-    cocos2d::CCPoint tilePosFromLocation(cocos2d::CCPoint location, cocos2d::CCTMXTiledMap* tileMap);
-    cocos2d::CCPoint getISOCoord(CCTMXTiledMap *_map, CCPoint point);
-    bool isColiedable(CCPoint tileCoord);
+    void getUpDatedPositions();
     
+    CCArray *spriteTags,*spritePositions;
 private:
-    cocos2d::CCSprite* pSprite;
     cocos2d::CCTMXTiledMap *_map;
-    cocos2d::CCArray* animFrames;
-    //int actualDuration;
-    float characterScale;
-    CCSize size;
-    int actualDuration;
+    CCArray *enemies;
+
 };
 
 #endif // __HELLOWORLD_SCENE_H__
